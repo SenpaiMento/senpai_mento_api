@@ -2,9 +2,8 @@
   "name": "senpai_mento_server",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "start": "node ./src/app.js",
+    "start": "nodemon ./src/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/SenpaiMento/senpai_mento_server/issues"
   },
-  "homepage": "https://github.com/SenpaiMento/senpai_mento_server#readme"
+  "homepage": "https://github.com/SenpaiMento/senpai_mento_server#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.11"
+  }
 }
