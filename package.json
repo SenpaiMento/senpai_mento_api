@@ -1,0 +1,20 @@
+{
+  "name": "senpai_mento_server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SenpaiMento/senpai_mento_server.git"
+  },
+  "author": "Senpai Mento",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SenpaiMento/senpai_mento_server/issues"
+  },
+  "homepage": "https://github.com/SenpaiMento/senpai_mento_server#readme"
+}
