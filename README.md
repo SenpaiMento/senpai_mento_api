@@ -1,1 +1,1 @@
-# senpai_mento_api
+# senpai_mento_server
