@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "start": "npx nodemon ./src/app.js",
+    "start:prod": "node ./bin/www",
+    "start:dev": "npm run watch:www & npm run watch:ts",
+    "watch:www": "nodemon ./bin/www",
+    "build:ts": "tsc",
+    "watch:ts": "tsc -w",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

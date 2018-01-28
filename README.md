@@ -8,8 +8,11 @@
 `cd [docker-compose.ymlがあるディレクトリ]`  
 `docker-compose build`  
 
-* node_modulesのインストール（production環境で仕様）  
+* 起動  
+`docker-compose up`  
+
+* node_modulesのインストール（production環境でも使用）  
 `docker-compose run --rm api npm install [インストールしたいパッケージ] --save`  
 
-* node_modulesのインストール（development環境のみで仕様）  
+* node_modulesのインストール（development環境のみで使用）  
 `docker-compose run --rm api npm install [インストールしたいパッケージ] --save-dev`  
